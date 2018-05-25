@@ -3,7 +3,7 @@
 //  NSHoverableButton
 //
 //  Created by Jiawei Li on 25/05/2018.
-//  Copyright © 2018 Jiawei Li. All rights reserved.
+//  Copyright © 2018 Rallets. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
