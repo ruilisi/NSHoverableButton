@@ -12,7 +12,7 @@
 		D171119520B7A152006BE7C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171119420B7A152006BE7C0 /* AppDelegate.swift */; };
 		D171119720B7A153006BE7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D171119620B7A153006BE7C0 /* Assets.xcassets */; };
 		D171119A20B7A153006BE7C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D171119820B7A153006BE7C0 /* MainMenu.xib */; };
-		D17111A020B7F94A006BE7C0 /* NSHoverableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171117820B79FBA006BE7C0 /* NSHoverableButton.swift */; };
+		D17111A220B808E8006BE7C0 /* NSHoverableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171117820B79FBA006BE7C0 /* NSHoverableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +49,6 @@
 		D171116120B79F54006BE7C0 = {
 			isa = PBXGroup;
 			children = (
-				D171117820B79FBA006BE7C0 /* NSHoverableButton.swift */,
 				D171116D20B79F54006BE7C0 /* NSHoverableButton */,
 				D171119320B7A152006BE7C0 /* NSHoverableButtonDemo */,
 				D171116C20B79F54006BE7C0 /* Products */,
@@ -68,6 +67,7 @@
 		D171116D20B79F54006BE7C0 /* NSHoverableButton */ = {
 			isa = PBXGroup;
 			children = (
+				D171117820B79FBA006BE7C0 /* NSHoverableButton.swift */,
 				D171116E20B79F54006BE7C0 /* NSHoverableButton.h */,
 				D171116F20B79F54006BE7C0 /* Info.plist */,
 			);
@@ -206,7 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D171119520B7A152006BE7C0 /* AppDelegate.swift in Sources */,
-				D17111A020B7F94A006BE7C0 /* NSHoverableButton.swift in Sources */,
+				D17111A220B808E8006BE7C0 /* NSHoverableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
