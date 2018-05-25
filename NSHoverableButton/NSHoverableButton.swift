@@ -9,8 +9,8 @@ import Foundation
 import Cocoa
 
 open class NSHoverableButton: NSButton {
-    @IBInspectable public var hoveringImage: NSImage?
-    @IBInspectable public var unhoveringImage: NSImage?
+    @IBInspectable open var hoveringImage: NSImage?
+    @IBInspectable open var unhoveringImage: NSImage?
     
     override open func awakeFromNib() {
         super.awakeFromNib()
