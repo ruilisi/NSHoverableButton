@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NSHoverableButton"
-  s.version      = "1.0"
+  s.version      = "1.0.2"
   s.summary      = "NSButton with two images for hovering and not hovering seperately."
   s.homepage     = "https://github.com/paiyou-network/NSHoverableButton"
   s.license      = { :type => "MIT", :file => "LICENSE" }
@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.source_files  = "NSHoverableButton/NSHoverableButton.{swift}"
   s.requires_arc = true
   s.platform     = :osx, '10.9'
+  s.swift_version= '4.1'
 end
