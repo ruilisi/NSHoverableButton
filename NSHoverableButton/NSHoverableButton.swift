@@ -24,7 +24,7 @@ open class NSHoverableButton: NSButton {
     
     override open func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
-        self.addCursorRect(self.bounds, cursor: NSCursor.pointingHand)
+        self.addCursorRect(self.bounds, cursor: .pointingHand)
     }
     override open func mouseEntered(with event: NSEvent) {
         guard self.image == hoveringImage ?? self.image else {

@@ -6,5 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "Rallet" => "info@rallets.com" }
   s.source       = { :git => "https://github.com/rallets-network/NSHoverableButton.git", :tag => "#{s.version}" }
-  s.source_files  = "NSHoverableButton/NSHoverableButton.swift"
+  s.source_files  = "NSHoverableButton/NSHoverableButton.{swift}"
+  s.requires_arc = true
+  s.platform     = :osx, '10.9'
 end
