@@ -3,6 +3,13 @@ NSButton with two images for hovering and un-hovering separately and with Pointi
 
 ![alt text](https://raw.githubusercontent.com/paiyou-network/NSHoverableButton/master/NSHoverableButtonDemo/Support/sample.png)
 
+## Installation (CocoaPods)
+Add `NSHoverableButton` to your Podfile:
+
+```pod 'NSHoverableButton'```
+
+Note that NSHoverableButton is built in Swift 4.
+
 ## Usage
 * Create one NSImageButton and set its class to `NSHoverableButton`
 ![alt text](https://raw.githubusercontent.com/paiyou-network/NSHoverableButton/master/NSHoverableButtonDemo/Support/setClassImg.png)
