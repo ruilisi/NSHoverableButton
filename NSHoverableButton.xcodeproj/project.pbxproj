@@ -8,16 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		D171117020B79F54006BE7C0 /* NSHoverableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D171116E20B79F54006BE7C0 /* NSHoverableButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D171117920B79FBA006BE7C0 /* NSHoverableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171117820B79FBA006BE7C0 /* NSHoverableButton.swift */; };
+		D171119520B7A152006BE7C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171119420B7A152006BE7C0 /* AppDelegate.swift */; };
+		D171119720B7A153006BE7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D171119620B7A153006BE7C0 /* Assets.xcassets */; };
+		D171119A20B7A153006BE7C0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D171119820B7A153006BE7C0 /* MainMenu.xib */; };
+		D17111A020B7F94A006BE7C0 /* NSHoverableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D171117820B79FBA006BE7C0 /* NSHoverableButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D171116B20B79F54006BE7C0 /* NSHoverableButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSHoverableButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D171116E20B79F54006BE7C0 /* NSHoverableButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSHoverableButton.h; sourceTree = "<group>"; };
 		D171116F20B79F54006BE7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D171117820B79FBA006BE7C0 /* NSHoverableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSHoverableButton.swift; sourceTree = "<group>"; };
+		D171119220B7A152006BE7C0 /* NSHoverableButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSHoverableButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D171119420B7A152006BE7C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D171119620B7A153006BE7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D171119920B7A153006BE7C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D171119B20B7A153006BE7C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D171119C20B7A153006BE7C0 /* NSHoverableButtonDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSHoverableButtonDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D171116720B79F54006BE7C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D171118F20B7A152006BE7C0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,7 +49,9 @@
 		D171116120B79F54006BE7C0 = {
 			isa = PBXGroup;
 			children = (
+				D171117820B79FBA006BE7C0 /* NSHoverableButton.swift */,
 				D171116D20B79F54006BE7C0 /* NSHoverableButton */,
+				D171119320B7A152006BE7C0 /* NSHoverableButtonDemo */,
 				D171116C20B79F54006BE7C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				D171116B20B79F54006BE7C0 /* NSHoverableButton.framework */,
+				D171119220B7A152006BE7C0 /* NSHoverableButtonDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -50,6 +72,18 @@
 				D171116F20B79F54006BE7C0 /* Info.plist */,
 			);
 			path = NSHoverableButton;
+			sourceTree = "<group>";
+		};
+		D171119320B7A152006BE7C0 /* NSHoverableButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D171119420B7A152006BE7C0 /* AppDelegate.swift */,
+				D171119620B7A153006BE7C0 /* Assets.xcassets */,
+				D171119820B7A153006BE7C0 /* MainMenu.xib */,
+				D171119B20B7A153006BE7C0 /* Info.plist */,
+				D171119C20B7A153006BE7C0 /* NSHoverableButtonDemo.entitlements */,
+			);
+			path = NSHoverableButtonDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +118,38 @@
 			productReference = D171116B20B79F54006BE7C0 /* NSHoverableButton.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		D171119120B7A152006BE7C0 /* NSHoverableButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D171119D20B7A153006BE7C0 /* Build configuration list for PBXNativeTarget "NSHoverableButtonDemo" */;
+			buildPhases = (
+				D171118E20B7A152006BE7C0 /* Sources */,
+				D171118F20B7A152006BE7C0 /* Frameworks */,
+				D171119020B7A152006BE7C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSHoverableButtonDemo;
+			productName = NSHoverableButtonDemo;
+			productReference = D171119220B7A152006BE7C0 /* NSHoverableButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		D171116220B79F54006BE7C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Jiawei Li";
 				TargetAttributes = {
 					D171116A20B79F54006BE7C0 = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+					D171119120B7A152006BE7C0 = {
 						CreatedOnToolsVersion = 9.3;
 					};
 				};
@@ -104,6 +160,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = D171116120B79F54006BE7C0;
 			productRefGroup = D171116C20B79F54006BE7C0 /* Products */;
@@ -111,6 +168,7 @@
 			projectRoot = "";
 			targets = (
 				D171116A20B79F54006BE7C0 /* NSHoverableButton */,
+				D171119120B7A152006BE7C0 /* NSHoverableButtonDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +181,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D171119020B7A152006BE7C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D171119720B7A153006BE7C0 /* Assets.xcassets in Resources */,
+				D171119A20B7A153006BE7C0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -130,10 +197,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D171117920B79FBA006BE7C0 /* NSHoverableButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D171118E20B7A152006BE7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D171119520B7A152006BE7C0 /* AppDelegate.swift in Sources */,
+				D17111A020B7F94A006BE7C0 /* NSHoverableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D171119820B7A153006BE7C0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D171119920B7A153006BE7C0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D171117120B79F54006BE7C0 /* Debug */ = {
@@ -258,6 +346,7 @@
 		D171117420B79F54006BE7C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -274,9 +363,11 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = Paiyou.NSHoverableButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -284,6 +375,7 @@
 		D171117520B79F54006BE7C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -300,9 +392,50 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = Paiyou.NSHoverableButton;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D171119E20B7A153006BE7C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSHoverableButtonDemo/NSHoverableButtonDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GX9HKAFEY8;
+				INFOPLIST_FILE = NSHoverableButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = Paiyou.NSHoverableButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D171119F20B7A153006BE7C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSHoverableButtonDemo/NSHoverableButtonDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GX9HKAFEY8;
+				INFOPLIST_FILE = NSHoverableButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = Paiyou.NSHoverableButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -324,6 +457,15 @@
 			buildConfigurations = (
 				D171117420B79F54006BE7C0 /* Debug */,
 				D171117520B79F54006BE7C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D171119D20B7A153006BE7C0 /* Build configuration list for PBXNativeTarget "NSHoverableButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D171119E20B7A153006BE7C0 /* Debug */,
+				D171119F20B7A153006BE7C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
