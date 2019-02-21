@@ -3,6 +3,8 @@ NSButton with two images for hovering and un-hovering separately and with Pointi
 
 ![alt text](https://raw.githubusercontent.com/paiyou-network/NSHoverableButton/master/NSHoverableButtonDemo/Support/sample.png)
 
+>Another framwork for Mac OS you may interest in: [NSGradientView](https://github.com/paiyou-network/NSGradientView)
+
 ## Installation (CocoaPods)
 Add `NSHoverableButton` to your Podfile:
 
