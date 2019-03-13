@@ -1,11 +1,9 @@
 # NSHoverableButton
 NSButton with two images for hovering and un-hovering separately and with Pointing Hand cursor when hovered.
 
-![alt text](https://raw.githubusercontent.com/paiyou-network/NSHoverableButton/master/NSHoverableButtonDemo/Support/sample.png)
-
 >Another framwork for Mac OS you may interest in:
 [NSGradientView](https://github.com/paiyou-network/NSGradientView),
-[CountryCodeNSTextField](https://github.com/paiyou-network/CountryCodeNSTextField)
+[CountryCodeNSTextField](https://github.com/paiyou-network/CountryCodeNSTextField),
 [NSScrollSidebar](https://github.com/paiyou-network/NSScrollSideBar)
 
 ## Installation (CocoaPods)
